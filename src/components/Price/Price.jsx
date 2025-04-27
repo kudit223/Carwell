@@ -8,21 +8,21 @@ const Price = () => {
     ['Premium', '₹ 1900', '₹ 2300', '4', '1'],
   ];
     return (
-            <div className='relative'>
-                
-                <img src={BackgroundImagePrice} alt="Loading.." className='blur flex w-500 h-300 '  />
-                <div className='absolute inset-0'>
+        <div className='bg-gradient-to-r from-teal-400 to-yellow-900 '>
 
-                <h1 className='text-6xl text-center font-bold my-5 text-white'>Price Card</h1>
+            <div className=' '>
+                <div className=' '>
+
+                <h1 className='text-6xl text-center font-bold  text-white'>Price Card</h1>
         <div className=' flex flex-wrap gap-4 justify-center'>
-            <div className="bg-gray-900 text-white p-5 rounded-2xl shadow-lg w-full max-w-xs border-4 border-yellow-400 relative mx-10 my-10">
+            <div className="bg-gray-900 text-white p-2 md:p-5 mx-10 md:mx-10 my-5 md:my-10 rounded-2xl shadow-lg w-full max-w-xs border-4 border-yellow-400 relative ">
 
 
                 <h2 className="text-4xl text-center font-semibold mb-2">Basic Wash</h2>
                 <div className='flex mx-2'>
 
-                    <div className="text-2xl font-bold p-2 mb-2">₹249 <span className="text-sm font-normal text-yellow-400">5 seater</span></div>
-                    <div className="text-2xl font-bold p-2 mb-2">₹299  <span className="text-sm font-normal text-yellow-400">7 seater</span></div>
+                    <div className="text-xl md:text-2xl lg:text-2xl font-bold p-2 mb-2">₹249 <span className="text-sm font-normal text-yellow-400">5 seater</span></div>
+                    <div className="text-xl md:text-2xl lg:text-2xl font-bold p-2 mb-2">₹299  <span className="text-sm font-normal text-yellow-400">7 seater</span></div>
                 </div>
                 <div className="text-2xl text-white mb-6">Service you get</div>
 
@@ -62,7 +62,7 @@ const Price = () => {
                 </button>
             </div>
 
-            <div className="bg-gray-900 text-white p-5 rounded-2xl shadow-lg w-full max-w-xs border-4 border-yellow-400 relative mx-10 my-10">
+            <div className="bg-gray-900 text-white p-2 md:p-5 mx-10 md:mx-10 my-5 md:my-10 rounded-2xl shadow-lg w-full max-w-xs border-4 border-yellow-400 relative ">
                 <div className="absolute -top-3 right-3 bg-yellow-400 text-black px-3 py-1 rounded-full text-xs font-bold">
                     Trending
                 </div>
@@ -70,8 +70,8 @@ const Price = () => {
                 <h2 className="text-4xl text-center font-semibold mb-2">Premium</h2>
                 <div className='flex mx-2'>
 
-                    <div className="text-2xl font-bold p-2 mb-2">₹499 <span className="text-sm font-normal text-yellow-400">5 seater</span></div>
-                    <div className="text-2xl font-bold p-2 mb-2">₹599  <span className="text-sm font-normal text-yellow-400">7 seater</span></div>
+                    <div className="text-xl md:text-2xl lg:text-2xl font-bold p-2 mb-2">₹499 <span className="text-sm font-normal text-yellow-400">5 seater</span></div>
+                    <div className="text-xl md:text-2xl lg:text-2xl font-bold p-2 mb-2">₹599  <span className="text-sm font-normal text-yellow-400">7 seater</span></div>
                 </div>
                 <div className="text-2xl text-white mb-6">Service you get</div>
 
@@ -109,14 +109,14 @@ const Price = () => {
                     Buy Now
                 </button>
             </div>
-            <div className="bg-gray-900 text-white p-5 rounded-2xl shadow-lg w-full max-w-xs border-4 border-yellow-400 relative mx-10 my-10">
+            <div className="bg-gray-900 text-white p-2 md:p-5 mx-10 md:mx-10 my-5 md:my-10  rounded-2xl shadow-lg w-full max-w-xs border-4 border-yellow-400 relative ">
 
 
                 <h2 className="text-4xl text-center font-semibold mb-2">Standard</h2>
                 <div className='flex mx-2'>
 
-                    <div className="text-2xl font-bold p-2 mb-2">₹349  <span className="text-sm font-normal text-yellow-400">5 seater</span></div>
-                    <div className="text-2xl font-bold p-2 mb-2">₹399  <span className="text-sm font-normal text-yellow-400">7 seater</span></div>
+                    <div className="text-xl md:text-2xl lg:text-2xl font-bold p-2 mb-2">₹349  <span className="text-sm font-normal text-yellow-400">5 seater</span></div>
+                    <div className="text-xl md:text-2xl lg:text-2xl font-bold p-2 mb-2">₹399  <span className="text-sm font-normal text-yellow-400">7 seater</span></div>
                 </div>
                 <div className="text-2xl text-white mb-6">Service you get</div>
 
@@ -177,7 +177,7 @@ const Price = () => {
           {rows.map((row, rowIndex) => (
               <tr key={rowIndex} className="hover:bg-gray-500 transition text-white">
               {row.map((cell, cellIndex) => (
-                  <td key={cellIndex} className="px-2 py-6 border-b border-gray-100 text-center">
+                  <td key={cellIndex} className="px-1 md:px-2 lg:py-3 py-6 border-b border-gray-100 text-center">
                   {cell}
                 </td>
               ))}
@@ -187,6 +187,7 @@ const Price = () => {
       </table>
     </div>
 
+          </div>
           </div>
           </div>
 
